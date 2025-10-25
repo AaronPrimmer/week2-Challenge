@@ -153,6 +153,7 @@ h3 {
 .project-item:hover {
   transform: scale(105%);
   box-shadow: 0 0 5px 1px hsl(0, 0%, 35%);
+  cursor: pointer;
 }
 
 .contact-container {
