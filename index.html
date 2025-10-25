@@ -9,6 +9,73 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>Aaron's Profile Page</h1>
+    <header class="header-box">
+      <nav class="navigation">
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <main class="main-content">
+      <section>
+        <div class="image-container">
+          <img src="./images/cute-cyber-ninja.png" alt="Cute Cyber Ninja" />
+        </div>
+        <h1>Aaron Primmer</h1>
+        <p>
+          I love evverything to do with computers and computer programming. I
+          also love spending time with family and watching football.
+        </p>
+        <div class="language-links">
+          <h2>Favorite Languages</h2>
+          <a class="c-sharp-tag" href="#">C#</a>
+          <a class="javascript-tag" href="#">JavaScript</a>
+          <a class="python-tag" href="#">Python</a>
+          <a class="php-tag" href="#">PHP</a>
+        </div>
+      </section>
+      <section>
+        <div class="projects-container">
+          <h2>Projects</h2>
+          <ul class="projects-list">
+            <li class="project-item">
+              <h3>Project One</h3>
+              <p>A web application that helps users track their tasks.</p>
+            </li>
+            <li class="project-item">
+              <h3>Project Two</h3>
+              <p>A mobile app for managing personal finances.</p>
+            </li>
+            <li class="project-item">
+              <h3>Project Three</h3>
+              <p>An open-source library for data visualization.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-container">
+          <h2>Contact Me</h2>
+          <form class="contact-form">
+            <input
+              class="name-field"
+              type="text"
+              placeholder="Enter Your Name..."
+            />
+            <input
+              class="email-field"
+              type="email"
+              placeholder="Enter Your Email..."
+            />
+            <textarea
+              class="message-field"
+              placeholder="Enter Your Message..."
+            ></textarea>
+            <button class="submit-button" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-container">
+      <p>&copy; 2025</p>
+    </footer>
   </body>
 </html>
