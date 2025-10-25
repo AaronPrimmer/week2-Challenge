@@ -219,3 +219,25 @@ h3 {
   color: hsl(59, 85%, 57%);
   font-weight: bold;
 }
+
+@media only screen and (min-width: 1440px) {
+  .main-content {
+    min-height: 700px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header-box {
+    justify-content: center;
+  }
+
+  .main-content {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .profile-section {
+    width: 90%;
+  }
+}
